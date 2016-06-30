@@ -1,9 +1,11 @@
 # Switch Statements
 
-![Adventure Time](http://i.giphy.com/FVbsOFYqdARtS.gif)
+![Adventure Time](http://i.imgur.com/cwR0gwx.png?1)
+
+> Bad biscuits make the baker broke, bro. -[Jake](https://en.wikipedia.org/wiki/Jake_the_Dog)
 
 
-## Learning Objectives - The student should be able to..
+## Learning Objectives 
 
 * Explain that a switch statement considers a value and compares it against several possible matching patterns. It will execute an appropriate block of code, based on the **first** pattern that matches successfully. 
 * Explain that a switch statement provides an alternative to the if statement which they had just learned to use.
@@ -13,10 +15,7 @@
 
 
 
-
-
-
-## Outline / Notes
+## Switch Goodness
 
 At this point you should feel comfortable with boolean expressions and ````if/else```` conditional clauses.  If you have any confusion about those topics please stop and review them before continuing beause this lesson is about a *more advanced* version of ````if/else````.
 
