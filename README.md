@@ -11,7 +11,7 @@
 * Explain that a switch statement provides an alternative to the if statement which they had just learned to use.
 * Understands that each case is a separate branch of code execution.
 * Understands that every switch statement **must** be exhaustive. This means that every possible value of the type being considered must be matched by one of the switch cases.
-* Explain that it's not practical to write **all** posible cases, where they could provide a default case to match all other possibilities as a catch-all. 
+* Explain that it's not practical to write **all** possible cases, where they could provide a default case to match all other possibilities as a catch-all. 
 
 
 
@@ -31,7 +31,7 @@ if sallyDressColor == "yellow" {
 } else if sallyDressColor == "blue" {
 	wearSomethingPurple()
 } else if sallyDressColor == "red" {
-	wearSomethingOrangle() 
+	wearSomethingOrange() 
 } else if sallyDressColor == "green" {
 	wearSomethingBlue()
 } else ...
@@ -61,9 +61,9 @@ switch sallyDressColor  {
 }
 ````
 
-Take a moment to compare and contrast the ````if/else```` chain with the ````switch````; you should start seeing how the ````switch```` statment is much cleaner and clearer.
+Take a moment to compare and contrast the ````if/else```` chain with the ````switch````; you should start seeing how the ````switch```` statement is much cleaner and clearer.
 
-You should also see *another* imporant difference, namely the presence of ````default```` in the ````switch````.  This solves the second problem with the chained ````if/else````, namely forgetting to handle one or more conditions that need to be handled.
+You should also see *another* important difference, namely the presence of ````default```` in the ````switch````.  This solves the second problem with the chained ````if/else````, namely forgetting to handle one or more conditions that need to be handled.
 
 Using the ````if/else```` example above, we woudn't know what to wear if Sally was wearing a color other than yellow, blue, red or green (and let's face it: if you know Sally at all then you know she's liable to wear *any* color!).  In fact, depending on how the rest of our code was written we'd either wind up wearing a bad color or even not getting dressed at all!
 
@@ -140,3 +140,5 @@ But wait, there's still more!
 The ````switch```` statement actually has many more features which are useful as your programs grow more complex.  While we won't cover them here (because you haven't yet had a chance to fully digest what we've just covered and also don't yet have enough context to fully appreciate the use-cases), you can look forward to learning about how the ````switch```` statement can also handle pattern matching and value binding, and especially how it really comes into its own in making stable, clear software when used in conjunction with ````Enums````.
 
 <a href='https://learn.co/lessons/SwitchStatement' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-switchStatement-readme'>Switch Statement </a> on Learn.co and start learning to code for free.</p>
