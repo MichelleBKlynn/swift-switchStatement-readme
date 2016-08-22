@@ -4,26 +4,25 @@
 
 > Bad biscuits make the baker broke, bro. -[Jake](https://en.wikipedia.org/wiki/Jake_the_Dog)
 
+## Overview 
+
+We'll cover switch statements and how they consider a value and compare that value to several matching patterns, and then will executee the appropriate block of code based on the pattern that matches successfully. 
 
 ## Learning Objectives 
 
-* Explain that a switch statement considers a value and compares it against several possible matching patterns. It will execute an appropriate block of code, based on the **first** pattern that matches successfully. 
-* Explain that a switch statement provides an alternative to the if statement which they had just learned to use.
-* Understands that each case is a separate branch of code execution.
-* Understands that every switch statement **must** be exhaustive. This means that every possible value of the type being considered must be matched by one of the switch cases.
-* Explain that it's not practical to write **all** possible cases, where they could provide a default case to match all other possibilities as a catch-all. 
-
-
+* Compare switch statements to `if/else` statements
+* Describe the syntax and structure of switch statements
+* Adapt an `if/else` conditional block to a switch statement
 
 ## Switch Goodness
 
-At this point you should feel comfortable with boolean expressions and ````if/else```` conditional clauses.  If you have any confusion about those topics please stop and review them before continuing beause this lesson is about a *more advanced* version of ````if/else````.
+At this point you should feel comfortable with boolean expressions and ````if/else```` conditional clauses.  
 
 You may have noticed that when you're chaining multiple ````if/else```` conditions together your code can start to feel a little... *hairy*; that's because while it's *possible* to chain as many ````if/else```` conditions together as you want the construct wasn't really designed for that.
 
-The ````Switch```` statement has one purpose which it is exceedingly good at: helping you write clear and correct code when you need to take more than two courses of action based upon the value of a constant, variable, or the returned value of a function.
+The ````switch```` statement has one purpose which it is exceedingly good at: helping you write clear and correct code when you need to take more than two courses of action based upon the value of a constant, variable, or the returned value of a function.
 
-In the previous lesson we had the following chained ````if/else````:
+Let's look at the following chained ````if/else````:
 
 ````Swift
 if sallyDressColor == "yellow" {
@@ -116,7 +115,7 @@ if x >= 1 && x <= 5 {
 // prints "x is in the range of 6-10"
 ````
 
-Or, you could use write it like this:
+Or, you could write it like this:
 
 ````Swift
 let x = 9
