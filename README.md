@@ -6,7 +6,7 @@
 
 ## Overview 
 
-We'll cover switch statements and how they consider a value and compare that value to several matching patterns, and then will executee the appropriate block of code based on the pattern that matches successfully. 
+We'll cover switch statements and how they consider a value and compare that value to several matching patterns, and then will execute the appropriate block of code based on the pattern that matches successfully. 
 
 ## Learning Objectives 
 
